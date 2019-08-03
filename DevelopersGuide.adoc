@@ -1140,7 +1140,7 @@ It looks like this:
 ```
 (ns app.ui
   (:require
-    [fulcro.client.dom :as dom]
+    [com.fulcrologic.fulcro.dom :as dom]
     [com.fulcrologic.fulcro.components :as comp :refer [defsc]]))
 
 (defsc Person [this {:person/keys [name age]}]
